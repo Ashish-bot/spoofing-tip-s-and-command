@@ -4,7 +4,7 @@ to run the spoof.cap file you need to add only target ip
 then run this command 
 # bettercap -iface eth0 -caplet spoof.cap
 
-
+bettercap -face eth0,
 net.probe on,
 set arp.spoof.fullduplex true,
 set arp.spoof.targets 192.168.1.13,
